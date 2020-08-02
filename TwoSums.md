@@ -7,7 +7,7 @@
 **Link**: [Two Sums](https://leetcode.com/problems/two-sum/)
 
 ## Problema
-Dado um array de números inteiro, retorne o índice de dois números que sumados resultam no valor target passado.
+Dado um array de números inteiro, retorne o índice de dois números que somados resultam no valor target passado.
 
 Você pode assumir que cada input terá exatamente uma solução, and não serão utilizados o mesmo elemento duas vezes.
 
@@ -113,7 +113,7 @@ Digamos que recebemos o array `[2, 4, 5]` e o valor target é `9`.
 | 4       | 2       |
 | 4       | 5       |
 
-7. Comparamos se o valor da soma deles é igual ao target `4 + 5 = 9` e o valor que queremos é `9` então comparamos se os valores não representam o mesmo índice no array, O valor 4 é o índice 1 e o valor 5 é o íncide 2 então podemos retornar [1, 2].
+7. Comparamos se o valor da soma deles é igual ao target `4 + 5 = 9` e o valor que queremos é `9` então comparamos se os valores não representam o mesmo índice no array, O valor 4 é o índice 1 e o valor 5 é o índice 2 então podemos retornar [1, 2].
 
 ### *Resolução 02*
 
@@ -129,7 +129,7 @@ Digamos que recebemos o array `[2, 4, 5]` e o valor target é `9`.
 
 #### Solução
 
-Terrible Whiteboard é um youtuber que cria conteúdo resolvendo problemas do leetcode. Para essa solução ele utilizou (Map)[https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map] para mapear o elemento que você está e seu índice. Com o elemento que você está compara se a diferença entre ele e o valor target existe no `Map`. Se existe você encontrou a solução.
+Terrible Whiteboard é um youtuber que cria conteúdo resolvendo problemas do leetcode. Para essa solução ele utilizou [Map](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map) para mapear o elemento que você está e seu índice. Com o elemento que você está compara se a diferença entre ele e o valor target existe no `Map`. Se existe você encontrou a solução.
 
 1. Primeiro é criado um `Map`.
 2. Cria um result como um array vazio. Caso não tenha resposta o retorno será essa variável result.
