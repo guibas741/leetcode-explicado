@@ -1,4 +1,4 @@
-# Nome do problema
+# Two Sums
 **Nível**:
 - [X] Fácil ✅
 - [ ] Médio ⚠️ 
@@ -13,9 +13,9 @@ Você pode assumir que cada input terá exatamente uma solução, and não serã
 
 **Exemplo:**
 ```
-Given nums = [2, 7, 11, 15], target = 9,
+Dado nums = [2, 7, 11, 15], target = 9,
 
-Because nums[0] + nums[1] = 2 + 7 = 9,
+Já que nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
 ## Explicações
