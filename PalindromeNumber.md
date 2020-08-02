@@ -141,8 +141,10 @@ var reversedInteger = function(x) {
 
 ### Explicação passo a passo
 
-1 - Reverter 49 para que seja 94
+1 - Reverter 49 para que seja 94.
+
 2 - Cria uma coluna Invertido que sempre inicia com 0.
+
 3 - Cria um coluna atual que mantém o estado do valor original.
 
 | Invertido | Atual |
@@ -150,8 +152,10 @@ var reversedInteger = function(x) {
 | 0         | 49    |
 
 4 - Analisamos que o último número original precisa ser o primeiro invertido, ou seja. 9 vai ser o primeiro numero do Invertido.
+
 5 - Para fazer isso, dividir o valor atual (49) por 10 e pegar o resto. `49 % 10 = 9`.
-6 - Para ter certeza que o primeiro número é 9 é preciso pegar o valor do Invertido, multiplicar por 10 e somar com o valor resto da divisão. Então `Invertido = (0 * 10) + 9;`
+
+6 - Para ter certeza que o primeiro número é 9 é preciso pegar o valor do Invertido, multiplicar por 10 e somar com o valor resto da divisão. Então `Invertido = (0 * 10) + 9;`.
 
 | Invertido | Atual |
 |-----------|-------|
@@ -167,7 +171,9 @@ var reversedInteger = function(x) {
 | 9         | 4     |
 
 8 - A partir disso é só repetir o processo (passos 4, 5, 6, 7) até que o valor atual seja 0.
+
 9 - Pegar o valor atual que agora é 4 dividir por 10 e pegar o resto. `4 % 10 = 4`.
+
 10 - Pegar o valor invertido, que agora é 9 multiplicar por 10 e somar ao resto da divisão. `invertido = (9 * 10) + 4;`.
 
 | Invertido | Atual |
@@ -178,7 +184,6 @@ var reversedInteger = function(x) {
 | 94        | 4     | 
 
 11 - Remover o número 4 do atual. Dividimos o valor por 10 e arredondamos para baixo. `4 / 10 = 0.4` e 0.4 arredondado para baixo é 0. O valor de atual é 0 e olhando no passo 8 lembramos que quando o valor atual é 8 ele retorna o invertido.
-
 
 | Invertido | Atual |
 |-----------|-------|
