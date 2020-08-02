@@ -1,7 +1,7 @@
-#Palindrome Number
+# Palindrome Number
 - *nível*: fácil ✅
 
-##Problema
+## Problema
 Determinar quando um integer é um palíndromo. Um integer é um palíndromo quando ele se lê igual de trás para frente. 
 
 Exemplo 1:
@@ -25,18 +25,18 @@ Explanation: Da direita para a esquerda se lê 01. Ou seja, não é um palíndro
 ```
 
 
-##Explicações
+## Explicações
 
 A explicação é sempre dividia em duas partes. A minha resolução sozinho ~~(que nem sempre é a melhor rs)~~. E por fim uma resolução feita com base em outros conteúdos, respostas dos usuários do leetcode, vídeos e etc.
 
-###*Resolução 01*
+### *Resolução 01*
 
 **Usuário:** [guibas741](https://github.com/guibas741)
 **Linguagem:** `Javascript`
 **Tempo de execução:** `236 ms`,
 **Uso de memória:** `47 MB`
 
-####Solução
+#### Solução
 
 A minha ideia foi utilizar do método [reverse()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse) do JavaScript para solucionar esse problema. Como esse é um método específico para arrays, minha solução foi a seguinte: 
  
