@@ -3,6 +3,7 @@
 - [ ] Fácil ✅
 - [ ] Médio ⚠️ 
 - [ ] Difícil 🛑
+
 **Link**: [Link para o problema](https://leetcode.com/)
 
 ## Problema
