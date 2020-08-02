@@ -146,7 +146,6 @@ var reversedInteger = function(x) {
 3 - Cria um coluna atual que mantém o estado do valor original.
 
 | Invertido | Atual |
-|-----------|-------|
 | 0         | 49    |
 
 4 - Analisamos que o último número original precisa ser o primeiro invertido, ou seja. 9 vai ser o primeiro numero do Invertido.
@@ -154,19 +153,14 @@ var reversedInteger = function(x) {
 6 - Para ter certeza que o primeiro número é 9 é preciso pegar o valor do Invertido, multiplicar por 10 e somar com o valor resto da divisão. Então `Invertido = (0 * 10) + 9;`
 
 | Invertido | Atual |
-|-----------|-------|
 | 0         | 49    |
-|-----------|-------|
 | 9         | 49    |
 
 7 - Agora é necessário remover o número 9 do atual. Para isso dividir o valor de atual por 10 e arredondar para baixo. `49 / 10 = 4.9` e 4.9 arredondado para baixo é 4. Ou seja, 4 é o valor atual agora.
 
 | Invertido | Atual |
-|-----------|-------|
 | 0         | 49    |
-|-----------|-------|
 | 9         | 49    |
-|-----------|-------|
 | 9         | 4     |
 
 8 - A partir disso é só repetir o processo (passos 4, 5, 6, 7) até que o valor atual seja 0.
@@ -174,28 +168,19 @@ var reversedInteger = function(x) {
 10 - Pegar o valor invertido, que agora é 9 multiplicar por 10 e somar ao resto da divisão. `invertido = (9 * 10) + 4;`.
 
 | Invertido | Atual |
-|-----------|-------|
 | 0         | 49    |
-|-----------|-------|
 | 9         | 49    |
-|-----------|-------|
 | 9         | 4     | 
-|-----------|-------|
 | 94        | 4     | 
 
 11 - Remover o número 4 do atual. Dividimos o valor por 10 e arredondamos para baixo. `4 / 10 = 0.4` e 0.4 arredondado para baixo é 0. O valor de atual é 0 e olhando no passo 8 lembramos que quando o valor atual é 8 ele retorna o invertido.
 
 
 | Invertido | Atual |
-|-----------|-------|
 | 0         | 49    |
-|-----------|-------|
 | 9         | 49    |
-|-----------|-------|
 | 9         | 4     | 
-|-----------|-------|
 | 94        | 4     | 
-|-----------|-------|
 | 94        | 0     |
 
 12 - Valor invertido = 94.
