@@ -69,6 +69,7 @@ var twoSum = function(nums, target) {
 Digamos que recebemos o array `[2, 4, 5]` e o valor target é `9`.
 
 1 - Primeiro vamos percorrer todo o array para ter o primeiro número na soma.
+
 2 - Depois vamos percorrer novamente o array para termos o segundo número.
 
 | 1 valor | 2 valor |
