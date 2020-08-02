@@ -91,7 +91,7 @@ Digamos que recebemos o array `[2, 4, 5]` e o valor target é `9`.
 | 2       | 4       |
 | 2       | 5       |
 
-5 - Comparamos se o valor da soma deles é igual ao target, se nao for o 2 valor vai para o próximo número no array. `2 + 5 = 7` e o valor que queremos é `9` então vamos para o próximo número. Nesse caso o segundo loop chegou ao final do array, então voltamos o 2 valor para o inicio e no primeiro loop e vamos para o próximo número.
+5 - Comparamos se o valor da soma deles é igual ao target, se nao for o 2 valor vai para o próximo número no array. `2 + 5 = 7` e o valor que queremos é `9` então vamos para o próximo número. Nesse caso o segundo loop chegou ao final do array, então voltamos o 2 valor para o inicio no primeiro loop e vamos para o próximo número.
 
 | 1 valor | 2 valor |
 |---------|---------|
