@@ -37,8 +37,11 @@ A explicação é sempre dividia em duas partes. A minha resolução sozinho ~~(
 ### *Resolução 01*
 
 **Usuário:** [guibas741](https://github.com/guibas741)
+
 **Linguagem:** `Javascript`
-**Tempo de execução:** `236 ms`,
+
+**Tempo de execução:** `236 ms`
+
 **Uso de memória:** `47 MB`
 
 #### Solução
