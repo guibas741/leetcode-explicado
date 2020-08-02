@@ -1,13 +1,13 @@
 # Nome do problema
 - *nível*: fácil ✅
-- *link*: [Link para o problema](https://leetcode.com/problems/two-sum/)
+- *link*: [Two Sums](https://leetcode.com/problems/two-sum/)
 
 ## Problema
 Dado um array de números inteiro, retorne o índice de dois números que sumados resultam no valor target passado.
 
 Você pode assumir que cada input terá exatamente uma solução, and não serão utilizados o mesmo elemento duas vezes.
 
-**Exemplo:***
+**Exemplo:**
 ```
 Given nums = [2, 7, 11, 15], target = 9,
 
