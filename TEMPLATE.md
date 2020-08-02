@@ -1,21 +1,24 @@
-#Nome do problema
+# Nome do problema
 - *nível*: (fácil ✅ | médio ⚠️ | difícil 🛑)
 
-##Problema
+## Problema
 Tradução da explicação do problema no leetcode
 
-##Explicações
+## Explicações
 
 A explicação é sempre dividia em duas partes. A minha resolução sozinho ~~(que nem sempre é a melhor rs)~~. E por fim uma resolução feita com base em outros conteúdos, respostas dos usuários do leetcode, vídeos e etc.
 
-###*Resolução 01*
+### *Resolução 01*
 
 **Usuário:** 
+
 **Linguagem:** 
+
 **Tempo de execução:**
+
 **Uso de memória:** 
 
-####Solução
+#### Solução
 
 Explicação da resolução passo a passo. De preferencia com exemplos de código
 
