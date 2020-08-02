@@ -1,6 +1,9 @@
 # Nome do problema
-- *nível*: (fácil ✅ | médio ⚠️ | difícil 🛑)
-- *link*: [Link para o problema](https://leetcode.com/)
+**Nível**:
+- [ ] Fácil ✅
+- [ ] Médio ⚠️ 
+- [ ] Difícil 🛑
+**Link**: [Link para o problema](https://leetcode.com/)
 
 ## Problema
 Tradução da explicação do problema no leetcode

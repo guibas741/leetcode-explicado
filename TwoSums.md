@@ -1,6 +1,9 @@
 # Nome do problema
-- *nível*: fácil ✅
-- *link*: [Two Sums](https://leetcode.com/problems/two-sum/)
+**Nível**:
+- [X] Fácil ✅
+- [ ] Médio ⚠️ 
+- [ ] Difícil 🛑
+**Link**: [Two Sums](https://leetcode.com/problems/two-sum/)
 
 ## Problema
 Dado um array de números inteiro, retorne o índice de dois números que sumados resultam no valor target passado.
@@ -100,7 +103,7 @@ Digamos que recebemos o array `[2, 4, 5]` e o valor target é `9`.
 | 2       | 5       |
 | 4       | 2       |
 
-6 - Compara se o valor deles é igual ao target, se nao for o 2 valor vai para o próximo número no array. `4 + 2 = 6` e o valor que queremos é `9` então vamos para o próximo número.
+6 - Comparamos se o valor da soma deles é igual ao target, se nao for o 2 valor vai para o próximo número no array. `4 + 2 = 6` e o valor que queremos é `9` então vamos para o próximo número.
 
 | 1 valor | 2 valor |
 |---------|---------|
@@ -110,7 +113,7 @@ Digamos que recebemos o array `[2, 4, 5]` e o valor target é `9`.
 | 4       | 2       |
 | 4       | 5       |
 
-7 - Compara se o valor deles é igual ao target `4 + 5 = 9` e o valor que queremos é `9` então comparamos se os valores não representam o mesmo índice no array, O valor 4 é o índice 1 e o valor 5 é o íncide 2 então podemos retornar [1, 2].
+7 - Comparamos se o valor da soma deles é igual ao target `4 + 5 = 9` e o valor que queremos é `9` então comparamos se os valores não representam o mesmo índice no array, O valor 4 é o índice 1 e o valor 5 é o íncide 2 então podemos retornar [1, 2].
 
 
 

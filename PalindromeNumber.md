@@ -1,6 +1,9 @@
 # Palindrome Number
-- *nível*: fácil ✅
-- *link*: [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+**Nível**:
+- [X] Fácil ✅
+- [ ] Médio ⚠️ 
+- [ ] Difícil 🛑
+**Link**: [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 
 ## Problema
 Determinar quando um integer é um palíndromo. Um integer é um palíndromo quando ele se lê igual de trás para frente. 
