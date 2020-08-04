@@ -99,8 +99,8 @@ Terrible Whiteboard é um youtuber que cria conteúdo resolvendo problemas do le
 2. Ele cria o retorno comparando x com o valor retornado da função `reversedInteger()`;
 3. É criada uma variável `reversed` e inicializada com 0.
 4. Cria um loop `while` enquanto o valor de x não for 0, vai continuar executando o código.
-5. Utiliza o operator  (módulo %)[https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#M%C3%B3dulo] para pegar o resto da divisão de x por 10. E soma isso ao valor de reversed * 10.
-6. Atribui a x o valor arredondado para baixo, usando (Math.floor())[https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/floor] de x dividido por 10.
+5. Utiliza o operator [módulo %](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#M%C3%B3dulo) para pegar o resto da divisão de x por 10. E soma isso ao valor de reversed * 10.
+6. Atribui a x o valor arredondado para baixo, usando [Math.floor()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/floor) de x dividido por 10.
 7. Quando x for menor igual a 0, vai sair do loop e retornar o valor de reversed;
 
 ```javascript
