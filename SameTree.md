@@ -111,6 +111,13 @@ Nossa entrada será:
    4   5    4   7
 ```
 1. Recebemos nossas duas árvores e agora vamos iniciar nossa comparação.
+```
+       1 <-     1 <-
+      / \      / \
+     2   1    2   1
+    / \      / \
+   4   5    4   7
+```
 2. Primeiro vamos ver se o valor inicial é null, caso seja vamos verificar se o valor da segunda árvore também é null. 
 ```
 if(p === null || q === null) { 
@@ -126,6 +133,13 @@ if(p.val !== q.val) {
 ```
 O valor do node que estamos comparando na primeira árvore é 1 e da segunda também é 1 então podemos prosseguir.
 4. Agora vamos começar a recursividade, lembrando que primeiro comparamos os valores da DIREITA da árvore.
+```
+       1        1 
+      / \      / \
+     2   1<-  2   1<-
+    / \      / \
+   4   5    4   7
+```
 ```
 return isSameTree(p.right, q.right) && isSameTree(p.left, q.left);
 ```
@@ -192,7 +206,7 @@ if(p === null || q === null) {
   return p === q;
 }
 ```
-16. Verificamos que os valores são DIFERENTES. Então retornamos _false_.
+16. Verificamos que os valores são DIFERENTES. Então retornamos _false_. Como eles são diferentes não verificamos os nodes a direita e esquerda do valor 5 e 7.
 17. Voltamos para o node de cima. 
 ```
        1            1 
@@ -201,7 +215,7 @@ if(p === null || q === null) {
     / \          / \
    4   5        4   7
 ```
-18.E fazemos a comparação do node da esquerda, por mais que já não importe pois uma vez que o valor for _false_ constatamos que as árvores são diferentes.
+18.E fazemos a comparação do node da esquerda, por mais que já não importe pois uma vez que o valor for _false_ constatamos que as árvores são diferentes. 
 ```
        1          1 
       / \        / \
@@ -209,6 +223,9 @@ if(p === null || q === null) {
     / \        / \
    4<- 5      4<- 7
 ```
+19. No final nossa saída será _false_.
+
+
 
 
 
