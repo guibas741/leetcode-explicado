@@ -119,14 +119,14 @@ Nossa entrada será:
    4   5    4   7
 ```
 2. Primeiro vamos ver se o valor inicial é null, caso seja vamos verificar se o valor da segunda árvore também é null. 
-```
+```javascript
 if(p === null || q === null) { 
   return p === q;
 }
 ```
 O primeiro valor é diferente de null em ambas as árvores então não podemos entrar nessa condição.
 3. Então vamos verificar se os valores são diferentes.
-```
+```javascript
 if(p.val !== q.val) {
     return false;
 }
@@ -140,28 +140,35 @@ O valor do node que estamos comparando na primeira árvore é 1 e da segunda tam
     / \      / \
    4   5    4   7
 ```
-```
+```javascript
 return isSameTree(p.right, q.right) && isSameTree(p.left, q.left);
 ```
 A ideia é que executemos a função _isSameTree_ quantas vezes forem necessárias até encontrarmos um valor diferente ou passarmos pela árvore inteira.
 5. O próximo valor na direita em ambas as árvores é diferente de null, então podemos pular essa comparação.
-```
+```javascript
 if(p === null || q === null) { 
   return p === q;
 }
 ```
 6. Vamos verificar se os valores são diferentes. Como o valor do node que estamos das duas árvores é 1 podemos pular essa condição também.
-```
+```javascript
 if(p.val !== q.val) {
     return false;
 }
 ```
 7. Voltamos para a recursividade. E de novo damos prioridade para o valor da direita.
-```
+```javascript
 return isSameTree(p.right, q.right) && isSameTree(p.left, q.left);
 ```
 8. O valor da direita em ambas as árvores agora é null, então já caímos na primeira condição
 ```
+        1                    1   
+      /   \                /   \
+     2     1              2     1
+    / \    / \           / \    / \
+   4   5 null null<-    4   7  null null<-
+```
+```javascript
 if(p === null || q === null) { 
   return p === q;
 }
@@ -170,6 +177,13 @@ Como os dois valores são null, vamos retornar _true_.
 9. Agora vamos chegar os nodes da esquerda _&& isSameTree(p.left, q.left)_.
 10.  O valor da esquerda em ambas as árvores agora é null, então já caímos na primeira condição
 ```
+        1                     1   
+      /   \                /     \
+     2      1              2       1
+    / \    /  \           / \    /   \
+   4   5 null<- null    4   7  null<- null
+```
+```javascript
 if(p === null || q === null) { 
   return p === q;
 }
@@ -201,7 +215,7 @@ Como os dois valores são null, vamos retornar _true_.
    4   5 <-     4   7 <-
 ```
 15. Verificamos que o valor não é nulo em ambas as árvores.
-```
+```javascript
 if(p === null || q === null) { 
   return p === q;
 }
