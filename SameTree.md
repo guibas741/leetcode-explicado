@@ -4,7 +4,7 @@
 - [ ] Médio ⚠️ 
 - [ ] Difícil 🛑
 
-**Link**: [Link para o problema](https://leetcode.com/problems/same-tree/)
+**Link**: [Same Tree](https://leetcode.com/problems/same-tree/)
 
 ## Problema
 Dado duas árvores binárias, escreva uma função para verificar se elas são as mesmas ou não.
